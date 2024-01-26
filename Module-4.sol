@@ -44,13 +44,13 @@ contract SweetToken is ERC20, Ownable {
 
        function getSweetCost(Sweet sweet) internal pure returns (uint256) {
         if (sweet == Sweet.CHOCOLATE) {
-            return 50;
-        } else if (sweet == Sweet.LOLLIPOP) {
             return 100;
+        } else if (sweet == Sweet.LOLLIPOP) {
+            return 200;
         } else if (sweet == Sweet.CANDY_CANE) {
-            return 75;
+            return 300;
         } else {
-            return 120;
+            return 400;
         }
     }
 }
