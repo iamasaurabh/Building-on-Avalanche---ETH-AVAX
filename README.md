@@ -32,4 +32,4 @@ The contract defines an enumeration `Sweet` with values representing different t
 Saurabh
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
